@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_auth_title_back.png",
+        "source": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_auth_title_back.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_logo.png",
+        "source": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_logo.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_title_div.png",
+        "source": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_title_div.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ssdk_back_arr.png",
+        "source": "D:\\Android_Studio\\Day29_Project\\sharemainlibs\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ssdk_back_arr.png"
+    }
+]

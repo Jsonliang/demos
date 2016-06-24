@@ -1,0 +1,3 @@
+include ':app', ':libs', ':httplibs'
+include ':sharemainlibs'
+include ':oneKeyshare'

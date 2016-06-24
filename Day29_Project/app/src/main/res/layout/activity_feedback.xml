@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cce4ca"
+    android:gravity="center"
+    tools:context="com.liang.day29_project.apps.FeedbackActivity">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/feedb_toolbar"></include>
+    <TextView
+        android:id="@+id/feedb_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:layout_below="@id/feedb_toolbar"
+        android:text="标题"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_toRightOf="@id/feedb_title"
+        android:layout_alignTop="@id/feedb_title"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginRight="10dp"
+        android:id="@+id/feedb_editText" />
+
+    <TextView
+        android:id="@+id/feedb_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:layout_below="@id/feedb_title"
+        android:text="内容"/>
+
+    <Button
+        android:id="@+id/feedb_commit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/feedb_editText"
+        android:text="提交"/>
+
+    <Button
+        android:id="@+id/feedb_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/feedb_commit"
+        android:layout_marginLeft="30dp"
+        android:text="取消"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedb_edit_content"
+        android:layout_toRightOf="@id/feedb_content"
+        android:layout_alignTop="@id/feedb_content"
+        android:background="@android:drawable/edit_text"
+        android:layout_above="@id/feedb_commit"
+        android:layout_marginRight="10dp" />
+</RelativeLayout>

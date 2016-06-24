@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\oneKeyshare\\build\\intermediates\\res\\merged\\release\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "D:\\Android_Studio\\Day29_Project\\oneKeyshare\\src\\main\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Day29_Project\\oneKeyshare\\build\\intermediates\\res\\merged\\release\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "D:\\Android_Studio\\Day29_Project\\oneKeyshare\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    }
+]

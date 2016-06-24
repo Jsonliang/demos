@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.liang.day29_project.apps.CollectActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/collect_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aea4a4"
+        android:layout_gravity="right">
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/collect_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/collect_toolbar"
+        android:divider="@android:color/holo_green_light"
+        android:dividerHeight="1dp">
+    </ListView>
+</RelativeLayout>
